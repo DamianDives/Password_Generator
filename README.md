@@ -29,10 +29,3 @@ This project is a Python-based graphical user interface (GUI) application for ge
 - Python 3.6 or higher
 - Tkinter (included in standard Python library)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contributing
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
