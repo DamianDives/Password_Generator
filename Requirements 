@@ -1,0 +1,16 @@
+# Requirements for Password Generator GUI
+
+# Python version
+python>=3.6
+
+# Tkinter for GUI
+tkinter
+
+# Random module for password generation
+random
+
+# String module for character sets
+string
+
+# Math module for entropy calculation
+math
