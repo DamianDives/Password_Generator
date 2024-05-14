@@ -58,11 +58,11 @@ def generate_passphrase_and_display():
     passphrase_entry.delete(0, tk.END)
     passphrase_entry.insert(0, passphrase)
 
-# Create main window
+# This Is Mandatory For Creating main window
 root = tk.Tk()
 root.title("Password Generator")
 
-# Password options frame
+# frame where password Options Are Shown
 password_frame = tk.Frame(root)
 password_frame.pack(pady=10)
 
@@ -94,11 +94,11 @@ include_special_var.set(True)
 generate_password_button = tk.Button(password_frame, text="Generate Password", command=generate_password_and_display)
 generate_password_button.grid(row=5, column=0, columnspan=2, pady=10)
 
-# Password entry field
+# Entry Spot For Password
 password_entry = tk.Entry(root, width=30)
 password_entry.pack(pady=10)
 
-# Passphrase options frame
+# Similarly Frame For PassPhrase
 passphrase_frame = tk.Frame(root)
 passphrase_frame.pack(pady=10)
 
@@ -110,8 +110,9 @@ words_entry.insert(0, "4")  # Default number of words
 generate_passphrase_button = tk.Button(passphrase_frame, text="Generate Passphrase", command=generate_passphrase_and_display)
 generate_passphrase_button.grid(row=1, column=0, columnspan=2, pady=10)
 
-# Passphrase entry field
+# Creating A Passphrase entry field Here
 passphrase_entry = tk.Entry(root, width=30)
 passphrase_entry.pack(pady=10)
 
 root.mainloop()
+#Dunzo!
